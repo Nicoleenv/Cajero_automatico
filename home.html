@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Menu principal</title>
+    </head>
+    <body>
+      <body style="background-color:#ffeecc;">
+      </body>
+      <figure class="text-center">
+        <blockquote class="blockquote">
+      <div class="p-3 mb-2 bg-danger text-white" ><h1>Bienvenido a Pokemon Bank</h1></div>
+    </blockquote>
+      <br>
+      <label for="">SALDO DE LA CUENTA: </label>
+      <input type="text" name="Cantidad1" id="C1" value="$1000">
+      <form action="">
+        <br>
+        <h2>Tansferencia</h2>
+        <input type="" name="" id="Cant" placeholder="Cantidad">
+        <br>
+        <br>
+        <input type="button" class="btn btn-warning" value="Depositar a cuenta" id="bt2" onclick="formula()">
+        <input type="button" class="btn btn-warning" value="Retirar de cuenta" id="bt4" onclick="formula2()">
+        <br>
+        <br>
+        
+        <a href="servicios.html" class="btn btn-danger"> Pago de servicios</a>
+        <a href="index.html" class="btn btn-danger"> Login</a>
+        </form>
+    <script>
+           function formula() {
+                var cantidadT=parseInt(document.getElementById('Cant').value);
+                var cantidadT=parseInt(document.getElementById('C1').value);
+                document.getElementById('C1').value=(cantidad1+cantidadT);
+           }
+           function formula2() {
+                var cantidadT=parseInt(document.getElementById('Cant').value);
+                var cantidadT=parseInt(document.getElementById('C1').value);
+                document.getElementById('C1').value=(cantidad1-cantidadT);
+           }
+
+    </script>
+
+      <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <script src="js/bootstrap.min.js"></script>
+     
+</body>
+</html>

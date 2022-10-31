@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <article id="fondo">
+        soy el bg color xd
+    </article>
+    <body style="background-color:#ff6666;">
+    </body>
+    <form action="">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+        <div class="p-3 mb-2 bg-danger text-white" ><h1 class="titulo">BANCO POKEMON</h1></div>
+    </blockquote>
+        <label for="">Usuario</label>
+        <input type="text" name="u" id="">
+        <label for="">PIN</label>
+        <input type="password" name="c" id="">
+        <input type="button" class="btn btn-warning" value="Ingresar" onclick="login(this.form)">
+
+    </form>
+    <script>
+        function login(form){
+              if (form.u.value=="pablo") {
+                if (form.c.value=="1234") {
+                    location="home.html";
+                } else {
+                    swal("error de contrasena", "intente nuevamente");
+                }
+              } else {
+                   swal("error de usuario", "intente nuevamente");
+              }
+        }
+    </script>
+    
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

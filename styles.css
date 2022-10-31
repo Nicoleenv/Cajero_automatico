@@ -1,0 +1,7 @@
+body {
+    background-color: lightblue;
+  }
+
+#fondo{
+  background-image: url('pokemon.jpg');
+}
